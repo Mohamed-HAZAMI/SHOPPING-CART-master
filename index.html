@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+      <div class="box">
+          <div class="boxx1">Shopping Bag total: <span id="total">0</span>$</div>
+          <hr>
+                <div class="box2" id="box1">
+                    <div class="first">
+                      <div class="shoes1" onclick="remove1()">X</div>
+                      <div class="shoes2"><i class="fas fa-heart fas1" onclick="rouge1()"></i></div>
+                    </div>
+                     <img src="./src/image1.jpg" alt="Smiley face" height="85" width="85">
+                     <div class="shoes4">
+                            <p class="p1">shoes</p>
+                            <p class="p2">blue</p>
+                     </div> 
+                     <div class="pos">
+                          <span class="possitive" onclick="inc1()">+</span>
+                          <div class="one" id="product1">0</div>
+                          <span class="negative"onclick="inc11()">-</span>
+                          <div class="shoes8"><span id="price1">0</span>$</div>
+                    </div>
+                </div>
+          <hr>
+          <div class="box2" id="box2">
+                <div class="first" >
+                  <div class="shoes1"onclick="remove2()">X</div>
+                  <div class="shoes2"><i class="fas fa-heart fas2" onclick="rouge2()"></i></div>
+                </div>
+                 <img src="./src/image2.jpg" alt="Smiley face" height="95" width="95">
+                 <div class="shoes4">
+                        <p class="p1">sneakers</p>
+                        <p class="p2">Violet</p>
+                 </div> 
+                 <div class="pos">
+                        <span class="possitive" onclick="inc2()">+</span>
+                        <div class="one" id="product2">0</div>
+                        <span class="negative"onclick="inc22()">-</span>
+                        <div class="shoes8"><span id="price2">0</span>$</div>
+                  </div>
+            </div>
+          <hr>
+          <div class="box2" id="box3">
+                <div class="first" >
+                  <div class="shoes1"onclick="remove3()">X</div>
+                  <div class="shoes2"><i class="fas fa-heart fas3" onclick="rouge3()"></i></div>
+                </div>
+                 <img src="./src/image3.jpeg" alt="Smiley face" height="85" width="100">
+                 <div class="shoes4">
+                        <p class="p1">shoes</p>
+                        <p class="p2">black</p>
+                 </div> 
+                 <div class="pos">
+                        <span class="possitive" onclick="inc3()">+</span>
+                        <div class="one" id="product3">0</div>
+                        <span class="negative"onclick="inc33()">-</span>
+                        <div class="shoes8"><span id="price3">0</span>$</div>
+                  </div>
+            </div>
+      </div>
+    </main>
+</body>
+<script src="./js/scipt.js"></script>
+</html>
